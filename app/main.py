@@ -207,9 +207,7 @@ tableSource.selected.on_change('indices', tableSelection_callback)
 
 # ==========================
 # === create layout ========
-bokehLayout = row(data_table,
-                    column(
-                        row(distFig,mapFig)))
+bokehLayout = column(data_table, row(distFig, mapFig))
 
 # add layout to curDoc (HTML)
 curdoc().add_root(bokehLayout)
