@@ -185,7 +185,7 @@ def tableSelection_callback(attrname, old, new):
     # 3) call functio to update plots
     updateDistCDS(selectionName)
 
-#tableSource.selected.on_change('indices', tableSelection_callback)
+tableSource.selected.on_change('indices', tableSelection_callback)
 
 # ===================================================================
 # Part II: run regression models, visualize and compare their results
