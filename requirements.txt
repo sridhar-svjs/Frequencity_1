@@ -1,0 +1,5 @@
+bokeh
+scikit-learn
+pandas
+scipy
+tensorflow-cpu
